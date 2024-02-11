@@ -1,0 +1,582 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+/*This Is The Header*/
+
+#Main_Header .navbar {
+    margin-bottom: 0px;
+}
+
+#Main_Header .dropdown-menu {
+
+    background-color: #3498db;
+    color: #000 !important;
+}
+
+#Main_Header .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #555;
+    background-color: #ecf0f1;
+}
+
+#Main_Header .navbar-default {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+#Main_Header .navbar-default .navbar-nav>li>a {
+    color: #ffffff !important;
+
+}
+
+#Main_Header .dropdown-menu>li>a {
+    color: #000;
+}
+
+
+
+#Main_Header .navbar-default .navbar-nav>li>a {
+    color: #000 !important;
+}
+#Main_Header .navbar-default .navbar-nav>li>a:hover{
+    color:#ffffff !important ;
+}
+
+#Main_Header ul.nav.navbar-nav.navbar-right  .portal {
+    border-left: 3px solid #ecf0f1;
+    border-right: 3px solid #ecf0f1;
+    background-color: #d7b911;
+   
+}
+
+#Main_Header ul.nav.navbar-nav.navbar-right  .portal:hover {
+    transition: 0.8s;
+    border-left: 3px solid #d7b911;
+    border-right: 3px solid #d7b911;
+    background-color: #ecf0f1;
+    color: #000 !important;
+}
+#Main_Header .navbar-brand {
+    padding: 12px 15px;
+}
+
+
+/*This Is The Slider*/
+.carousel-caption {
+    right: 15%;
+    top: 500px;
+
+
+}
+
+.carousel-caption h1 {
+    background-color: #000;
+    opacity: 0.5;
+
+}
+
+/*This Is The Content In Index*/
+#The_Content {
+    background-color: #ecf0f1;
+    width: 100%;
+    height: auto;
+    background-image: url('../imgs/pattern2.avif');
+    background-repeat: repeat repeat;
+    background-size: 50%;
+}
+
+
+#The_Content h2 {
+    font-family: 'Merriweather Sans', sans-serif !important;
+    color: #3498db;
+    --animate-duration: 6s;
+    --animate-delay: 9s;
+    margin-bottom: 30px;
+}
+
+#The_Content p {
+    color: #000;
+    line-height: 2.0em;
+    --animate-duration: 6s;
+    --animate-delay: 9s;
+}
+
+
+#The_content .lead {
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+#The_Content #accreditation img {
+    cursor: pointer;
+}
+
+#The_Content hr {
+    border-top: 1px solid #382e77;
+}
+
+#The_Content .btn-defualt {
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+#The_Content h1 {
+    color: #3498db;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#The_Content #Team {
+    background-color: #3498db;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+#The_Content #Team div>img {
+    box-shadow: 6px 2px #c82f3d;
+
+}
+
+#The_Content #Team h3 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#The_Content #Team p {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#The_Content .btn-defualt{
+    background-color: #c82f3d;
+}
+#The_Content a.text-center {
+    text-decoration: none;
+}
+
+/*
+#The_Content .btn-defualt:hover{
+    border-radius: 50px;
+    transition: 1.2s;
+    background-color: #3b3b51;
+}
+*/  
+/*This is Content in Education*/
+#Main_Education {
+    font-family: 'Merriweather Sans', sans-serif !important;
+    background-color: #ecf0f1;
+    background-image: url('../imgs/pattern2.avif');
+    background-repeat: repeat repeat;
+    background-size: 50%;
+}
+
+#Main_Education .Header_Education {
+    color: #ffffff;
+    margin: 0px 10px 40px;
+}
+
+#Main_Education .special {
+    background-color: #333333e3 !important;
+    color: #ffffff !important;
+    padding-top: 30px !important;
+}
+
+#Main_Education .text-p{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+#Main_Education a {
+    margin-bottom: 20px;
+}
+
+#Main_Education h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #000 !important;
+}
+#Main_Education h2{
+color:#3498db;
+
+}
+
+#Main_Education .btn-defualt {
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+#Main_Education .btn-defualt:hover{
+    background-color: #c82f3d;
+}
+
+
+/*This Is The Footer*/
+
+#Main_Footer {
+    width: 100%;
+    background-color: #3498db;
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+#Main_Footer #contact {
+    padding: 50px;
+}
+
+
+
+#Main_Footer .ul_footer {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding-left: 0px;
+}
+
+#Main_Footer .ul_footer li {
+    display: inline !important;
+    margin-right: 3px;
+}
+
+#Main_Footer p {
+    color: #ffffff;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+#Main_Footer h3 {
+    font-size: 30px;
+    color: #f4f4f4;
+    font-family: 'Merriweather Sans', sans-serif !important;
+
+}
+
+#Main_Footer .copyright {
+    color: #ecf0f1;
+    background-color: #3498db !important;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0px 0px 0px;
+}
+
+#Main_Footer .Footer_Ul_2 {
+    display: inline !important;
+    list-style-type: none !important;
+    margin-right: 30px;
+}
+
+#Main_Footer .Footer_Ul_2 a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 20px;
+}
+
+#Main_Footer hr {
+
+    border-top: 1px solid #382e77;
+}
+
+#Main_Footer span {
+    margin-left: 3px;
+}
+
+#Main_Footer .Footer_Ul_3 {
+    display: inline !important;
+    list-style-type: none !important;
+    margin-right: 30px;
+    color: #ecf0f1;
+    font-size: 15px;
+}
+
+#Main_Footer h3 {
+    text-align: justify;
+    font-size: 40px;
+}
+
+#Main_Footer li {
+    font-size: 25px
+}
+
+#Main_Footer p.X {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    display: block;
+    right: 10px;
+}
+
+#Main_Footer p.X img:hover,
+#Main_Footer p.X img:hover:focus,
+#Main_Footer p.X img:active {
+    background: #c82f3d;
+    border-radius: 50%;
+    transition: 0.8s ease-in-out;
+    width: 60px;
+    height: 60px;
+    outline: 4px solid #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Events*/
+#Main_Event {
+    width: 100%;
+    height: auto;
+    background-color: #ecf0f1;
+    font-family: 'Merriweather Sans', sans-serif !important;
+
+}
+
+#Main_Event .thumbnail {
+    background-color: #3498db;
+}
+
+#Main_Event .thumbnail:hover {
+    background-color: #34495e;
+    transition: 0.9s ease-in-out;
+    color: #ecf0f1;
+    zoom: 106%;
+}
+
+
+#Main_Event .caption h2:hover {
+    transition: 0.8s ease-in-out;
+    color: #ffffff;
+}
+
+#Main_Event .Text_Caption {
+    text-align: center;
+    text-size-adjust: 20px;
+
+}
+
+#Main_Event h1 {
+    color: #3498db;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+#Main_Event h2 {
+
+    color: #ecf0f1;
+}
+
+/*This Is For Register*/
+#Main_Register {
+    font-family: 'Merriweather Sans', sans-serif !important;
+
+}
+
+#Main_Register {
+    color: #000;
+
+}
+
+#Main_Register .btn-danger {
+    margin-bottom: 5px;
+    background-color: #2980b9;
+    border: 1px #2980b9;
+    border-radius: 0;
+}
+
+#Main_Register .form-control {
+
+    color: #ffffff;
+    background-color: #3498db;
+    border: 1px solid #333;
+    border-radius: 0px;
+}
+
+#Main_Register .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/*This is for Contact*/
+#The_Contact {
+    font-family: 'Merriweather Sans', sans-serif !important;
+    width: 100%;
+    height: auto;
+    background-image: url('../imgs/education\ contact.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#The_Contact .form-control {
+    background-color: #3498db;
+}
+
+#The_Contact input::placeholder {
+    color: #ffffff !important;
+}
+#The_Contact .form-control::placeholder{
+    color: #ffffff;
+}
+
+#The_Contact legend {
+    font-size: 30px;
+    color: #f4f4f4;
+}
+
+#The_Contact label {
+    color: #f4f4f4;
+}
+
+#The_Contact .form-control {
+    border-radius: 0;
+}
+
+#The_Contact .btn-danger {
+    border-radius: 0;
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #ffffff;
+}
+
+
+/*About*/
+#The_About {
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+#The_About .bg {
+    background-image: url('../imgs/science\ lab.jpg') !important;
+    background-size: cover;
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#The_About span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3497da;
+}
+
+
+#The_About h1 {
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #333;
+    opacity: 0.7;
+    margin: 30px auto;
+}
+
+
+#The_About p {
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+
+
+
+/*Student Application*/
+#Main-Apply {
+    font-family: 'Merriweather Sans', sans-serif !important;
+    background-image: url('../imgs/education\ contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#Main-Apply .form-control {
+    border-radius: 0;
+}
+
+#Main-Apply .btn-danger {
+    border-radius: 0;
+}
+
+#Main-Apply input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+}
+#Main-Apply legend{
+    color: #ecf0f1;
+}
+#Main-Apply h1{
+    color:#ecf0f1;
+}
+#Main-Apply label{
+    color: #ecf0f1;
+}
+#Main-Apply input::placeholder{
+    color: #000;
+}
+
+/*Forget Password*/
+
+#Main_ForgetPassword .Forget_Password_Image {
+    margin-left: calc(100% - 80%);
+}
+
+#Main_ForgetPassword a {
+
+
+    border-radius: 0;
+}
+
+#Main_ForgetPassword .Form_Forget {
+    margin-top: 100px;
+
+}
+
+#Main_ForgetPassword label {
+    font-size: 35px;
+}
+
+#Main_ForgetPassword .form-control {
+    background-color: #3498db;
+}
+
+#Main_ForgetPassword input::placeholder {
+    color: #ffffff;
+}
+
+#Main_ForgetPassword .btn-danger {
+    background-color: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+}
+
+/*Login*/
+#The_Login .form-control {
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #3498db
+}
+
+#The_Login .btn-danger {
+    border-radius: 0;
+}
+
+#The_Login input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    /* Firefox */
+}
+/*End Login*/
+.small{
+    zoom: 95%;
+    
+}
+.small:hover{
+ 
+    zoom:unset;
+}
